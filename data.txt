@@ -1,0 +1,43 @@
+# IDs
+MY_ID = 40275019
+PARTNER_ID = 40296526
+
+# my data
+p = 51407
+q = 65071
+N = 3345104897
+phi_N = 3344988420
+e = 265872071
+d = 3311748311
+
+# my partner data
+PARTNER_N = 2476210577 
+PARTNER_e = 1001395693
+
+# encryption
+MY_MESSAGE = "Hello From Anik"
+MY_MESSAGE_chunks = ['Hel', 'lo ', 'Fro', 'm A', 'nik']
+MY_CIPHERTEXT = [954186234, 640257641, 504336221, 2241249811, 902176818]
+
+# decryption
+PARTNER_CIPHERTEXT = [2168000973, 1524214925, 3070310645, 2531220278]
+PARTNER_MESSAGE_chunks_AFTER_DECRYPT = ['Hel', 'lo ', 'Ani', 'k']
+PARTNER_MESSAGE_AFTER_DECRYPT = "Hello Anik"
+
+
+# sign
+MY_MESSAGE_TO_BE_SIGNED = "Anik Chowdhury"
+MY_MESSAGE_TO_BE_SIGNED_chunks = ['Ani', 'k C', 'how', 'dhu', 'ry']
+MY_SIGNATURE = [1532896188, 1727526906, 730877332, 607670896, 43522356]
+
+# verfiy the signature
+PARTNER_SIGNED_MESSAGE = "Pushpeswaree Degamber"
+PARTNER_SIGNATURE = [1506823430, 2438002494, 1358545013, 710806339, 611410040, 1284107460, 754649663]
+#IS_VALID_SIGNATURE should be True or False
+IS_VALID_SIGNATURE = True
+
+
+
+COMMENTS = '''
+# If you have a short comment, write it here
+'''
